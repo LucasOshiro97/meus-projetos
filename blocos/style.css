@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: var(--cor04);
+    background-image: linear-gradient(to bottom, var(--cor01) 50%, var(--cor03));
 }
 
 header{
@@ -24,8 +24,6 @@ header{
     padding-top: 10px;
     color: aliceblue;
     text-align: center;
-    box-shadow: 1px 6px 10px 2px rgba(0, 0, 0, 0.363);
-
 }
 
 header>h1{
@@ -33,67 +31,24 @@ header>h1{
     padding-top: 2px;
     padding-bottom: 20px;
 }
-
-nav{
-    background-color: var(--cor02);
-    min-width: 100px;
-    height: 500px;
-    box-shadow: 1px 6px 10px 2px rgba(0, 0, 0, 0.363);
-    border-radius: 0px 20px 20px 0px;
-    padding-top: 10px; 
-    padding-left: 20px;
-    float: left;
-    position: fixed;
-    margin-top: 10px;
-}
-
-nav>a{
-    color: rgb(255, 255, 255);
-    line-height: 1.7em;
-    padding: 5px 10px ;
-    padding-right: none;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-nav>a:hover{
-    text-decoration: underline;
-    background-color: var(--cor05);
-    color: azure;
-    margin-left: none;
-    transition: 0.4s;
-}
-
 main{
-    background-color: aliceblue;
-    margin: auto;
-    min-width: 200px;
-    max-width: 700px;
-    padding: 20px;
-    margin-left: -20px;
-    margin: auto;
-    display: flex;
     height: 100vh;
 }
 
-main ul{
+#tela{
     background-color: gray;
     border: 1px solid black;
     border-radius: 8px;
-    width: 80px;
-    height: 60px;
+    width: 500px;
+    height: 300px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    margin-left: 6.5%;
-    margin-top: 10%;
-    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-main ul:hover{
+#tela:hover{
     background-color: var(--cor04);
     color: white;
-    transform: translate(-2%, -2%);
-    transition: transform 0.5s;
 }
